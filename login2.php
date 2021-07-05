@@ -14,11 +14,11 @@
  </style>
   <style>
 table, th, td {
-  border: 1px solid black;
+  border: 1px solid blue;
   padding: 5px;
 }
 table {
-  border-spacing: 15px;
+  border-spacing: 10px;
 }
 </style>
  <table border="2">
@@ -27,7 +27,7 @@ table {
  <th>Toy Name</th>
  <th>Toy Price</th>
  <th>Quantity</th>
- <th colspan="2" align="center">Operation</th>
+ <th colspan="2" align="center">Action</th>
  </tr>
 <?php
 echo '<p>HUONG ATN Shop </p>';
