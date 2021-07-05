@@ -32,17 +32,17 @@ $qt=$_GET['qt'];
  <table border"0" bgcolor="white" align="center" cellspacing="20">
 
  <tr>
- <td>Product ID</td>
+ <td>Toy ID</td>
  <td><input type="text" value="<?php echo "$pi" ?>" name="productid" required></td>
  </tr>
 
  <tr>
- <td>Product Name</td>
+ <td>Toy Name</td>
  <td><input type="text" value="<?php echo "$pn" ?>" name="productname" required></td>
  </tr>
 
  <tr>
- <td>Product Price</td>
+ <td>Toy Price</td>
  <td><input type="text" value="<?php echo "$pp" ?>" name="productprice" required></td>
  </tr>
 

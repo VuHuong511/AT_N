@@ -2,8 +2,7 @@
 $host_heroku = "ec2-34-228-100-83.compute-1.amazonaws.com";
 $db_heroku = "deg7glh2avsc8";
 $user_heroku = "wxzpbrqdqzqnld";
-$pw_heroku =
-"985b689938ec46332a01823db58ec530c1448b58897b339c96d76e40cf604e1d";
+$pw_heroku ="985b689938ec46332a01823db58ec530c1448b58897b339c96d76e40cf604e1d";
 $conn_string = "host=$host_heroku port=5432 dbname=$db_heroku user=$user_heroku password=$pw_heroku";
 $pg_heroku = pg_connect($conn_string);
 if (!$pg_heroku)
@@ -32,17 +31,17 @@ $qt=$_GET['qt'];
  <table border"0" bgcolor="white" align="center" cellspacing="20">
 
  <tr>
- <td>Product ID</td>
+ <td>Toy ID</td>
  <td><input type="text" value="<?php echo "$pi" ?>" name="productid" required></td>
  </tr>
 
  <tr>
- <td>Product Name</td>
+ <td>Toy Name</td>
  <td><input type="text" value="<?php echo "$pn" ?>" name="productname" required></td>
  </tr>
 
  <tr>
- <td>Product Price</td>
+ <td>Toy Price</td>
  <td><input type="text" value="<?php echo "$pp" ?>" name="productprice" required></td>
  </tr>
 

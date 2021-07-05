@@ -12,7 +12,7 @@ die('Error: Could not connect: ' . pg_last_error());
 ?>
 <html>
  <head>
- <title> Add </title>
+ <title> Add Toy</title>
  </head>
  <body>
 <style>
@@ -26,17 +26,17 @@ die('Error: Could not connect: ' . pg_last_error());
  <form action="" method="GET">
  <table border"0" bgcolor="white" align="center" cellspacing="20">
     <tr>
- <td>Product ID</td>
+ <td>Toy ID</td>
  <td><input type="text" value="" name="productid" required></td>
  </tr>
 
  <tr>
- <td>Product Name</td>
+ <td>Toy Name</td>
  <td><input type="text" value="" name="productname" required></td>
  </tr>
 
  <tr>
- <td>Product Price</td>
+ <td>Toy Price</td>
  <td><input type="text" value="" name="productprice" required></td>
  </tr>
 

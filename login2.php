@@ -23,9 +23,9 @@ table {
 </style>
  <table border="2">
  <tr>
- <th>Product ID</th>
- <th>Product Name</th>
- <th>Product Price</th>
+ <th>Toy ID</th>
+ <th>Toy Name</th>
+ <th>Toy Price</th>
  <th>Quantity</th>
  <th colspan="2" align="center">Operation</th>
  </tr>
@@ -34,8 +34,7 @@ echo '<p>HUONG ATN Shop </p>';
 $host_heroku = "ec2-34-228-100-83.compute-1.amazonaws.com";
 $db_heroku = "deg7glh2avsc8";
 $user_heroku = "wxzpbrqdqzqnld";
-$pw_heroku =
-"985b689938ec46332a01823db58ec530c1448b58897b339c96d76e40cf604e1d";
+$pw_heroku ="985b689938ec46332a01823db58ec530c1448b58897b339c96d76e40cf604e1d";
 $conn_string = "host=$host_heroku port=5432 dbname=$db_heroku user=$user_heroku password=$pw_heroku";
 $pg_heroku = pg_connect($conn_string);
 if (!$pg_heroku)
@@ -63,7 +62,6 @@ Edit/Update</td>
 ";
 }
 }
-
 ?>
  <form action="https://huong-511.herokuapp.com/add2.php">
  <input type="submit" value="Add" />

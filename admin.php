@@ -62,18 +62,17 @@ echo "
 ?>
 <table border="2">
  <tr>
- <th>Product ID</th>
- <th>Product Name</th>
- <th>Product Price</th>
+ <th>Toy ID</th>
+ <th>Toy Name</th>
+ <th>Toy Price</th>
  <th>Quantity</th>
  </tr>
 <?php
-echo '<p>HUONG ATN Shop 2</p>';
+echo '<p>HUONG ATN Shop</p>';
 $host_heroku = "ec2-54-242-43-231.compute-1.amazonaws.com";
 $db_heroku = "ddlp9pmlqgflmt";
 $user_heroku = "pumlbuetcvwepq";
-$pw_heroku =
-"577988a8b0e99d63a080ccb20a168958d09bc3098df69e48530c79bb3e95ad00";
+$pw_heroku ="577988a8b0e99d63a080ccb20a168958d09bc3098df69e48530c79bb3e95ad00";
 $conn_string = "host=$host_heroku port=5432 dbname=$db_heroku user=$user_heroku password=$pw_heroku";
 $pg_heroku = pg_connect($conn_string);
 if (!$pg_heroku)
