@@ -31,11 +31,11 @@ table {
  </tr>
 <?php
 echo '<p>GnouhP ATN Shop 1 </p>';
-$host_heroku = "ec2-54-242-43-231.compute-1.amazonaws.com";
-$db_heroku = "ddlp9pmlqgflmt";
-$user_heroku = "pumlbuetcvwepq";
+$host_heroku = "ec2-52-0-67-144.compute-1.amazonaws.com";
+$db_heroku = "dd672fnuqneeiig";
+$user_heroku = "xssfpwgzhjijiu";
 $pw_heroku =
-"577988a8b0e99d63a080ccb20a168958d09bc3098df69e48530c79bb3e95ad00";
+"6eb8e3cfe2223ce872b8c0c119a3f750019aa8b32c3efa67516adca3e1bda7d6";
 $conn_string = "host=$host_heroku port=5432 dbname=$db_heroku user=$user_heroku password=$pw_heroku";
 $pg_heroku = pg_connect($conn_string);
 if (!$pg_heroku)
@@ -65,7 +65,7 @@ Edit/Update</td>
 }
 
 ?>
- <form action="https://gnouhpatnshop.herokuapp.com/add1.php">
+ <form action="https://huong-511.herokuapp.com/add1.php">
  <input type="submit" value="Add" />
 </form>
 </body>
