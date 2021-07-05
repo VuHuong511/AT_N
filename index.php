@@ -24,10 +24,10 @@
       $user = $_POST['userid'];
       $pass= $_POST['password'];
     }
-    if($user == "login1" && $pass == "admin"){
+    if($user == "user1" && $pass == "user"){
       header("location:login1.php");
     }
-    if($user == "login2" && $pass == "admin"){
+    if($user == "user2" && $pass == "user"){
    header("location:login2.php");
     }
     if($user == "admin" && $pass == "admin"){

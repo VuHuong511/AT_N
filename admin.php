@@ -29,7 +29,7 @@ table {
  <th>Quantity</th>
  </tr>
 <?php
-echo '<p>GnouhP ATN Shop 1</p>';
+echo '<p>HUONG ATN Shop 1</p>';
 $host_heroku = "ec2-34-228-100-83.compute-1.amazonaws.com";
 $db_heroku = "deg7glh2avsc8";
 $user_heroku = "wxzpbrqdqzqnld";
@@ -68,7 +68,7 @@ echo "
  <th>Quantity</th>
  </tr>
 <?php
-echo '<p>GnouhP ATN Shop 2</p>';
+echo '<p>HUONG ATN Shop 2</p>';
 $host_heroku = "ec2-54-242-43-231.compute-1.amazonaws.com";
 $db_heroku = "ddlp9pmlqgflmt";
 $user_heroku = "pumlbuetcvwepq";
