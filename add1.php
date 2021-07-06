@@ -37,7 +37,7 @@ die('Error: Could not connect: ' . pg_last_error());
 
  <tr>
  <td>Toy Price</td>
- <td><input type="text" value="" name="productprice" required></td>
+ <td><input type="text" value="" name="price" required></td>
  </tr>
 
  <tr>
@@ -57,7 +57,7 @@ if($_GET['submit'])
 {
 $pi=$_GET['productid'];
 $pn=$_GET['productname'];
-$pp=$_GET['productprice'];
+$pp=$_GET['price'];
 $qt=$_GET['quantityonhand'];
 $query = "INSERT INTO atnshop1 VALUES ('$pi','$pn','$pp','$qt')";
 $data = pg_query($pg_heroku,$query);

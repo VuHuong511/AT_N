@@ -43,7 +43,7 @@ $qt=$_GET['qt'];
 
  <tr>
  <td>Toy Price</td>
- <td><input type="text" value="<?php echo "$pp" ?>" name="productprice" required></td>
+ <td><input type="text" value="<?php echo "$pp" ?>" name="price" required></td>
  </tr>
 
  <tr>
@@ -63,10 +63,10 @@ if($_GET['submit'])
 {
 $productid = $_GET['productid'];
 $productname = $_GET['productname'];
-$productprice = $_GET['productprice'];
+$price = $_GET['price'];
 $quantityonhand = $_GET['quantityonhand'];
 $query = "UPDATE atnshop2 SET productid='$productid', productname='$productname',
-productprice='$productprice', quantityonhand='$quantityonhand' WHERE productid='$productid' ";
+price='$price', quantityonhand='$quantityonhand' WHERE productid='$productid' ";
 $data = pg_query($pg_heroku,$query);
 if($data)
 {

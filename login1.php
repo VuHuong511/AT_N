@@ -52,10 +52,10 @@ echo "
 <tr>
 <td>".$result['productid']."</td>
 <td>".$result['productname']."</td>
-<td>".$result['productprice']."</td>
+<td>".$result['price']."</td>
 <td>".$result['quantityonhand']."</td>
 <td><a
-href='update1.php?pi=$result[productid]&pn=$result[productname]&pp=$result[productprice]&qt=$result[quantityonhand]'>
+href='update1.php?pi=$result[productid]&pn=$result[productname]&pp=$result[price]&qt=$result[quantityonhand]'>
 Edit/Update</td>
 <td><a href='delete1.php?pi=$result[productid]'>Delete</td>
 </tr>
