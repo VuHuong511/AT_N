@@ -1,7 +1,7 @@
 <html>
 <head>
  <ul>
- <li> <a href="index.php"> Log out</a> </li>
+ <li> <a href="index.php" style = 'red';> Log out</a> </li>
  </ul>
  </head>
  <body>
@@ -21,7 +21,7 @@ table {
   border-spacing: 10px;
 }
 </style>
- <table border="2">
+ <table border="2" bgcolor: "while">
  <tr>
  <th>Toy ID</th>
  <th>Toy Name</th>

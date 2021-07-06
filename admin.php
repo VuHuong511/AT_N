@@ -21,7 +21,7 @@ table {
   border-spacing: 15px;
 }
 </style>
- <table border="2">
+ <table border="2" bgcolor: "while">
  <tr>
  <th>Product ID</th>
  <th>Product Name</th>
@@ -60,7 +60,7 @@ echo "
 }
 
 ?>
-<table border="2">
+<table border="2" bgcolor: "while" >
  <tr>
  <th>Toy ID</th>
  <th>Toy Name</th>
