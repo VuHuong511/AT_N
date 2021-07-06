@@ -21,7 +21,7 @@ table {
   border-spacing: 10px;
 }
 </style>
- <table border="2" bgcolor: "while">
+ <table border="2" bgcolor= "white">
  <tr>
  <th>Toy ID</th>
  <th>Toy Name</th>
