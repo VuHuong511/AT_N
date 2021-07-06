@@ -52,7 +52,7 @@ echo "
 <tr>
 <td>".$result['productid']."</td>
 <td>".$result['productname']."</td>
-<td>".$result['productprice']."</td>
+<td>".$result['price']."</td>
 <td>".$result['quantityonhand']."</td>
 </tr>
 ";
